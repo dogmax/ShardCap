@@ -26,7 +26,6 @@ f:RegisterEvent'PLAYER_REGEN_ENABLED'
 local combat, bag = nil, nil
 f:SetScript('OnEvent', function()
 	-- DEFAULT_CHAT_FRAME:AddMessage("registered")
-
 	if event == "BAG_UPDATE" then
 		bag = true
 	elseif event == "PLAYER_REGEN_ENABLED" then
