@@ -11,7 +11,7 @@ Change the Soul Shard cap in the first line in "ShardCap.lua".
 No need to exit the game. After changes, type: /console reloadui
 
 
-Open the "DelShards.lua" and change: 
+Open the "ShardCap.lua" and change: 
 
     shardcap=5;
 
