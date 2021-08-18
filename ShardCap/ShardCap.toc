@@ -1,5 +1,5 @@
 ## Interface: 11200
 ## Title: ShardCap
-## Notes: You never have more than 5 shards. To change amount, edit first line in ShardCap.lua. See: www.github.com/dogmax/DelShards for info.
+## Notes: You never have more than 5 shards. To change amount, edit first line in ShardCap.lua. See: github.com/dogmax/ShardCap for info.
 ## Author: Johnlars
 ShardCap.lua
