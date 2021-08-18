@@ -7,7 +7,7 @@ function delShards(number) -- Debugging
 			local name = GetContainerItemLink(bag,slot); 
 			if name and string.find(name,"Soul Shard") then 
 				if i > number then 
-					DEFAULT_CHAT_FRAME:AddMessage("Deleting "..name..". "..i.."-> "..i-1); 	
+					DEFAULT_CHAT_FRAME:AddMessage("Deleting "..name..". "..i); 	
 					PickupContainerItem(bag,slot); 
 					DeleteCursorItem(); 
 				end; 
