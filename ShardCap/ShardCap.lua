@@ -17,8 +17,6 @@ function delShards(number) -- Debugging
 	end; 
 end;
 
-
-
 local f = CreateFrame'Frame'
 f:RegisterEvent'BAG_UPDATE'
 
