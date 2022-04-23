@@ -13,8 +13,6 @@ Change the first line in "ShardCap.lua".
 Relaunch game or type: /console reloadui
 
 ### What?? I don't understand:
-No need to exit the game. After changes, type: /console reloadui
-
 Open the "ShardCap.lua" in e.g. Notepad and change: 
 
     shardcap=5;
