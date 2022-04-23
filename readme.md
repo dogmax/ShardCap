@@ -9,13 +9,13 @@ Deletes excess soulshards AFTER you exit combat.
 Unzip, move the "ShardCap" folder into the addons folder. 
 
 # How do I change the shard cap?
-Change the Soul Shard cap in the first line in "ShardCap.lua".
+Change the first line in "ShardCap.lua".
 Relaunch game or type: /console reloadui
 
-### Detailed Description:
+### What?? I don't understand:
 No need to exit the game. After changes, type: /console reloadui
 
-Open the "ShardCap.lua" in Notepad and change: 
+Open the "ShardCap.lua" in e.g. Notepad and change: 
 
     shardcap=5;
 
@@ -28,3 +28,5 @@ or
 
     shardcap=2;
 
+Then save the file. 
+Then reload the game or type this in the chat, in-game: /console reloadui
