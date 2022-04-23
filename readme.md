@@ -4,14 +4,14 @@ WoW 1.12.1 - Automatically deletes soul shards above a certain amount (default 5
 ## Install
 Unzip, move the "ShardCap" folder into the addons folder. 
 
-## Settings: 
+# How do I change the shard cap?
 Change the Soul Shard cap in the first line in "ShardCap.lua".
+Relaunch game or type: /console reloadui
 
-### Settings - Detailed Description:
+### Detailed Description:
 No need to exit the game. After changes, type: /console reloadui
 
-
-Open the "ShardCap.lua" and change: 
+Open the "ShardCap.lua" in Notepad and change: 
 
     shardcap=5;
 
