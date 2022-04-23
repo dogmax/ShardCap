@@ -1,5 +1,5 @@
-# ShardCap
-WoW 1.12.1 - Automatically deletes soul shards above a certain amount (default 5).
+# ShardCap for WoW version 1.12
+Automatically deletes soul shards above a certain amount (default 5).
 
 Incredibly simple and lightweight addon that manages your soulshards for you.
 
