@@ -3,6 +3,8 @@ Automatically deletes soul shards above a certain amount (default 5).
 
 Incredibly simple and lightweight addon that manages your soulshards for you.
 
+Deletes excess soulshards AFTER you exit combat.
+
 ## Install
 Unzip, move the "ShardCap" folder into the addons folder. 
 
