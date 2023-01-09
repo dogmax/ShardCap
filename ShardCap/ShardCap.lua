@@ -67,6 +67,7 @@ f:SetScript('OnEvent', function()
 end)
 
 function ShardCap_IsInteger(n)
+	-- Returns true if n is an integer.
 	if tonumber(n) ~= math.floor(tonumber(n)) then
 		return false
 	else
