@@ -25,7 +25,7 @@ function shardTest(b, s)
 	local shardID = 6265;
 	
 	-- GetContainerItemLink returns a long string, where the item's ID is part of the string. 
-	-- can return "nil", which we don't want when we save it to local itemLink 
+	-- Returns "nil" if empty bag slot, which we don't like, since we save it to local itemLink 
 	-- So we have to handle that
 	local itemLink
 	
