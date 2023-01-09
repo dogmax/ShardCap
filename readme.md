@@ -12,13 +12,13 @@ This addon deletes backwards, so that your shards always fill your soulbag first
 - Move the "ShardCap" folder into the addons folder. 
 
 ## Slash commands
-- /shardcap    (Show current cap)
+- Menu: /shardcap    
 
-- /shardcap NUMBER    (Change cap)
+- Change cap: /shardcap NUMBER
 
 - Example: /shardcap 5
   
-- /shardcap spam      (enable/disable notification when shard is deleted)
+- Notifications: /shardcap spam
 
 ### More information: 
 
