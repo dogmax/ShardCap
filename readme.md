@@ -1,30 +1,13 @@
 # ShardCap for WoW version 1.12
-Automatically deletes soul shards above a certain amount (default 5).
+Automatically delete soul shards above a certain amount (default 28).
 
-Incredibly simple and lightweight addon that manages your soulshards for you.
+Change cap to 5: /shardcap 5
+Change cap to 128: /shardcap 128
 
-Deletes excess soulshards AFTER you exit combat.
+Deletes excess soulshards when you exit combat.
+
+Deletes from your backpack first, then 2nd bag, then 3rd bag, and so on. This way you always have your shards in your last bag (where most people put their soul bag). 
+
 
 ## Install
 Unzip, move the "ShardCap" folder into the addons folder. 
-
-# How do I change the shard cap?
-Change the first line in "ShardCap.lua".
-Relaunch game or type: /console reloadui
-
-### What?? I don't understand:
-Open the "ShardCap.lua" in e.g. Notepad and change: 
-
-    shardcap=5;
-
-... To anything you want. 
-For example: 
-
-    shardcap=10;
-
-or 
-
-    shardcap=2;
-
-Then save the file. 
-Then reload the game or type this in the chat, in-game: /console reloadui
