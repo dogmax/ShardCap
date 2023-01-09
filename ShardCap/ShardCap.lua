@@ -75,7 +75,7 @@ function ShardCap_IsInteger(n)
 end
 
 function ShardCap_PrintCap()
-	str = "ShardCap - Cap is "..SHARDCAP_CAP_VALUE.." shard";
+	str = "ShardCap - Current cap is "..SHARDCAP_CAP_VALUE.." shard";
 	if SHARDCAP_CAP_VALUE ~= 1 then 
 		str = str.."s"
 	end 
@@ -83,11 +83,11 @@ function ShardCap_PrintCap()
 end
 
 function ShardCap_PrintInfo()
-	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Example: /shardcap 12");
-	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Notify when deleting: /shardcap spam");
-	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Shards are deleted when you exit combat. Deletes from backpack first. Put your soulbag in your last bag slot, like a normal person.");
+	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Change cap: /shardcap <number> ... For example: /shardcap 5");
+	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Show cap: /shardcap");
+	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Notifications: /shardcap spam");
 	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Manual delete: /shardcap delete");
-	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Show current cap: /shardcap");
+	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Deletes when you exit combat. Deletes from backpack first. Put your soulbag in your last bag slot, like a normal person. Cheers.");
 	DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Website: www.github.com/dogmax/ShardCap");
 end
 
@@ -107,6 +107,7 @@ end
 function ShardCap(parameter) 
 	if parameter == '' then
 		ShardCap_PrintCap();
+		DEFAULT_CHAT_FRAME:AddMessage("ShardCap - Change cap: /shardcap <number> ... For example: /shardcap 5");
 		DEFAULT_CHAT_FRAME:AddMessage("ShardCap - More information type: /shardcap info");
 	end
 
