@@ -10,4 +10,14 @@ Deletes from your backpack first, then 2nd bag, then 3rd bag, and so on. This wa
 
 
 ## Install
-Unzip, move the "ShardCap" folder into the addons folder. 
+- Unzip. 
+- Enter "ShardCap-main"-folder
+- Move the "ShardCap" folder into the addons folder. 
+
+#Slash commands
+- Print current shard cap: /shardcap    
+- Change current shard cap: /shardcap <number>
+Example: /shardcap 5
+- Notifications when shards are deleted: /shardcap spam
+- More information: /shardcap info
+
