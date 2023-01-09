@@ -23,8 +23,6 @@ This addon deletes backwards, so that your shards always fill your soulbag first
   
 - Start/Stop Notifications: /shardcap spam
 
-- Manual delete: /shardcap delete
-
 ### More information: 
 
 - /shardcap info
