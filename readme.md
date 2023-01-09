@@ -2,7 +2,7 @@
 
 Super simple and invisible addon.
 
-Automatically delete soul shards above a certain amount (default 12). At levels 10-20 I normally set it 5 because bags are small and soulbags come later. 
+Automatically delete soul shards above a certain amount (default 12). At levels 10-20, I normally set it 5 because bags are small and soulbags come later. 
 
 Deletes excessive soulshards when you exit combat.
 
