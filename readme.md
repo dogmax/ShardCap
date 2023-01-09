@@ -2,7 +2,7 @@
 
 Super simple and invisible addon.
 
-Automatically deletes soulshards above an amount, when you exit combat (default 12). At levels 10-20, I normally set it 5 because bags are small and soulbags come later. 
+Automagically, deletes Soul Shards above the cap - when you exit combat (default 12). At levels 10-20, I normally set it 5 because bags are small and soulbags come later. 
 
 
 
