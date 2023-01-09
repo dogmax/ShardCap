@@ -17,7 +17,7 @@ This addon deletes backwards, so that your shards always fill your soulbag first
 - Enter "ShardCap-main"-folder
 - Move the "ShardCap" folder into the addons folder. 
 
-##Slash commands
+## Slash commands
 - Print current shard cap: /shardcap    
 - Change current shard cap: /shardcap NUMBER
   
