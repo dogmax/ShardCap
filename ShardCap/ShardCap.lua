@@ -1,4 +1,4 @@
-SHARDCAP_CAP_VALUE=28;
+SHARDCAP_CAP_VALUE=12;
 SHARDCAP_SPAM=false; 
 
 function delShards(number) -- Debugging
