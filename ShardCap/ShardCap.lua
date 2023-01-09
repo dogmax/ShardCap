@@ -120,7 +120,7 @@ function ShardCap(parameter)
 		ShardCap_ToggleSpam();
 	end 
 	
-	-- check if parameter is a number (this if check makes no sense, but it works)
+	-- check if parameter is a number (this if clause seems weird, but it's not)
 	if type(tonumber(parameter)) == "number" then
 		-- If parameter is a number, check for integer
 		if ShardCap_IsInteger(parameter) then
