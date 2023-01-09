@@ -124,7 +124,7 @@ function ShardCap(parameter)
 	if type(tonumber(parameter)) == "number" then
 		-- If parameter is a number, check for integer
 		if ShardCap_IsInteger(parameter) then
-			-- If it IS an integer, we set the new value for SHARDCAP_CAP_VALUE... 
+			-- If it IS an integer, we set the new value for SHARDCAP_CAP_VALUE..., account for negative numbers. 
 			SHARDCAP_CAP_VALUE = math.abs(parameter); 
 			ShardCap_PrintCap();
 		else 
