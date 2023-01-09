@@ -3,6 +3,8 @@ Automatically delete soul shards above a certain amount (default 28).
 
 Deletes soulshards when you exit combat.
 
+TODO: If you or your pet is dead, don't delete any shards.
+
 
 Change cap to 5: /shardcap 5
 
