@@ -1,7 +1,7 @@
 # ShardCap for WoW version 1.12
 Automatically delete soul shards above a certain amount (default 12). At levels 10-20 I normally set it 5 because bags are small and soulbags come later. 
 
-Deletes soulshards when you exit combat.
+Deletes soulshards excess when you exit combat.
 
 Change cap to 5: /shardcap 5
 
