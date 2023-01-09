@@ -14,17 +14,17 @@ This addon deletes backwards, so that your shards always fill your soulbag first
 ## Slash commands
 ### Print current shard cap: 
 
-/shardcap    
+- /shardcap    
 
 ### Change current shard cap: 
-/shardcap NUMBER
+- /shardcap NUMBER
 
-Example: /shardcap 5
+- Example: /shardcap 5
   
 ### Notifications when shards are deleted: 
-/shardcap spam
+- /shardcap spam
 
 ### More information: 
 
-/shardcap info
+- /shardcap info
 
