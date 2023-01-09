@@ -16,7 +16,7 @@ Deletes from your backpack first, then 2nd bag, then 3rd bag, and so on. This wa
 
 ##Slash commands
 - Print current shard cap: /shardcap    
-- Change current shard cap: /shardcap <number>
+- Change current shard cap: /shardcap NUMBER
   
 Example: /shardcap 5
   
