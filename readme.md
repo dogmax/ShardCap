@@ -9,10 +9,7 @@ Change cap to 5: /shardcap 5
 Change cap to 128: /shardcap 128
 
 
-
-
-
-Deletes from your backpack first, then 2nd bag, then 3rd bag, and so on. This way you always have your shards in your last bag (where most people put their soul bag). 
+This addon deletes backwards, so that your shards always fill your soulbag first. 
 
 
 ## Install
