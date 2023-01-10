@@ -76,7 +76,7 @@ function ShardCap_IsInteger(n)
 end
 
 function ShardCap_PrintCap()
-	-- Corrent spelling of shard/shards in case the user sets the cap to 1.
+	-- Correct spelling of shard/shards in case the user sets the cap to 1.
 	-- xD smiley face.
 	str = "ShardCap - Current cap is "..SHARDCAP_CAP_VALUE.." shard";
 	if SHARDCAP_CAP_VALUE ~= 1 then 
