@@ -26,6 +26,6 @@ This addon deletes backwards, so that your shards always fill your soulbag first
 - /shardcap info
 
 
-### Recent changes:
+## Recent changes:
 
 - Changed default to 12 (up from 5).
