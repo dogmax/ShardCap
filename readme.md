@@ -29,5 +29,3 @@ This addon deletes backwards, so that your shards always fill your soulbag first
 ## Recent changes:
 
 - Changed default to 12 (up from 5).
-
-- Quality of life stuff. 
