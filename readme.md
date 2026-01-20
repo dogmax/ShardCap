@@ -2,7 +2,7 @@
 
 Super lightweight and invisible addon.
 
-Automagically deletes Soul Shards above the cap - when you exit combat (default 12). 
+Automagically deletes Soul Shards above the cap - when you exit combat (default 5). 
 
 This addon deletes backwards, so that your shards always fill your soulbag first. 
 
