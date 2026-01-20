@@ -1,6 +1,0 @@
-## Interface: 11200
-## Title: ShardCap
-## Notes: www.github.com/dogmax/ShardCap | Never carry too many shards. Type /shardcap
-## Author: The Johnnest of them all.
-## SavedVariablesPerCharacter: SHARDCAP_CAP_VALUE, SHARDCAP_SPAM
-ShardCap.lua
